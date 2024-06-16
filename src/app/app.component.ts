@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { GoogleMap } from '@angular/google-maps';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, GoogleMap, MatSlideToggleModule],
+  imports: [GoogleMap],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
